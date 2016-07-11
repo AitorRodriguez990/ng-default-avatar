@@ -8,6 +8,12 @@ body {
 .container.content {
     padding-bottom: 40px;
 }
+.container.content .item {
+    margin-bottom: 10px;
+}
+.container.content .item .name {
+    margin: 10px 0 0 10px;
+}
 .container .text-muted {
     margin: 20px 0;
 }

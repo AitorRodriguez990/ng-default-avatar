@@ -1,0 +1,27 @@
+{
+    "name": "ng-default-avatar",
+    "version": "0.1",
+    "homepage": "https://github.com/AitorRodriguez990/ng-default-avatar",
+    "authors": [
+        "Aitor Rodríguez <aitor.rodriguez990@gmail.com>"
+    ],
+    "description": "AngularJS directive to set a default avatar with initials if user has not avatar image",
+    "main": "./app/default-avatar.js",
+    "keywords": [
+        "angularjs",
+        "directive",
+        "avatar",
+        "user"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "^1.3.0"
+    }
+}

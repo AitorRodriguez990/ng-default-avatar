@@ -9,4 +9,12 @@
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     border-radius: 40px;
+    overflow: hidden;
+}
+.default-avatar img {
+    height: 100%;
+    margin-top: -2px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
 }

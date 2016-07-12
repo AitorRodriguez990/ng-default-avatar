@@ -23,7 +23,7 @@ angular.module('ngDefaultAvatar', []).directive('defaultAvatar', [
                 scope.hasImage = false;
 
                 if(scope.image !== undefined) {
-                    scope.hastImage = true;
+                    scope.hasImage = true;
                 } else {
                     if(scope.name.length) {
                         scope.initials = scope.name.charAt(0);

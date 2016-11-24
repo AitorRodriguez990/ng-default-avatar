@@ -15,6 +15,11 @@ Download lastest release from [here](https://github.com/AitorRodriguez990/ng-def
 
         <default-avatar name="'Name'" surname="'Surname'" image="'UrlPath'"></default-avatar>
 
+## Pending (ordered)
+* Add default values if user has not *name*, *surname* or *image*
+* Create Bower package
+
+
 ## Changelog
 ### v0.1
 * First preview of directive with fields *name*, *surname* and *image*

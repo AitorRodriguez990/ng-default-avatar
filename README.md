@@ -1,7 +1,5 @@
 # ng-default-avatar
-AngularJS directive to set a default avatar with initials if user has not avatar image:
-
-    <password-generator field="passwordField"></password-generator>
+AngularJS directive to show an user avatar. Set a default avatar with initials if user has not avatar image.
 
 ## Demo
 See the [demo page](https://aitorrodriguez990.github.io/ng-default-avatar/demo.html) with directive working.

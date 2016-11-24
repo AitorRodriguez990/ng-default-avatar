@@ -11,15 +11,15 @@ See the [demo page](https://aitorrodriguez990.github.io/ng-default-avatar/demo.h
 Download lastest release from [here](https://github.com/AitorRodriguez990/ng-default-avatar/releases/latest).
 
 ### Bower
-In progress.
+*In progress.*
 
 ## Usage
 
-        <default-avatar name="'Name'" surname="'Surname'" image="'urlPath'"></default-avatar>
+        <default-avatar name="'Name'" surname="'Surname'" image="'UrlPath'"></default-avatar>
 
 ## Changelog
 ### v0.1
-* First preview of directive with fields 'name', 'surname' and 'image'
+* First preview of directive with fields *name*, *surname* and *image*
 * Demo page
 
 ## Copyright

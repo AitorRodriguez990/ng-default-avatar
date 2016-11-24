@@ -16,7 +16,7 @@ angular.module('ngDefaultAvatar', []).directive('defaultAvatar', [
                 surname: '=',
                 image: '='
             },
-            templateUrl: '/app/default-avatar.html',
+            template: '<div class="default-avatar" ng-switch="hasImage"><div ng-switch-when="false">{{ initials.toUpperCase() }}</div><img ng-switch-when="true" ng-src="{{image}}"></div>',
             link: function(scope, element, attr) {
 
                 scope.initials = '';

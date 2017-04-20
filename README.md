@@ -30,4 +30,4 @@ Download lastest release from [here](https://github.com/AitorRodriguez990/ng-def
 
 
 ## Copyright
-Copyright (c) 2016 Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Directive licensed under the MIT License.
+Copyright (c) 2016-Present Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Directive licensed under the MIT License.

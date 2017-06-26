@@ -14,6 +14,7 @@ angular
 		function() {
 			return {
 				restrict: 'AE',
+        replace: true,
 				scope: {
 					name: '=',
 					surname: '=',

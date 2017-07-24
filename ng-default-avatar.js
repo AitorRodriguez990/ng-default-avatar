@@ -1,7 +1,7 @@
 /*
  * ng-default-avatar - AngularJS directive to set a default avatar with initials if user has not avatar image
  * Author: Aitor Rodríguez - http://www.frontendfactory.es/
- * Version: 0.2
+ * Version: 0.3
  * License: MIT
  */
 
@@ -23,22 +23,12 @@ angular
 				template: '<div class="default-avatar" ng-switch="hasImage"><div ng-switch-when="false">{{ initials.toUpperCase() }}</div><img ng-switch-when="true" ng-src="{{image}}"></div>',
 				link: function(scope, element, attr) {
 					// Initialize the default values
-					scope.name = (scope.name !== undefined) ? scope.name : 'No';
+					scope.name = (scope.name !== undefined && scope.name !== null && scope.name.length > 0) ? scope.name : '?';
+					scope.surname = (scope.surname !== undefined && scope.surname !== null) ? scope.surname : '';
+					scope.initials = scope.name.charAt(0) + scope.surname.charAt(0);
 
-					scope.hasImage = false;
-					scope.initials = '';
-
-					if (scope.image !== undefined) {
-						scope.hasImage = true;
-					} else {
-						if (scope.name !== undefined && scope.name !== null && scope.name.length) {
-							scope.initials = scope.name.charAt(0);
-						}
-
-						if (scope.surname !== undefined && scope.surname !== null && scope.surname.length) {
-							scope.initials += scope.surname.charAt(0);
-						}
-					}
+					// Set variable to show initials or image
+					scope.hasImage = (scope.image !== undefined) ? true : false;
 				}
 			};
 		}

@@ -9,23 +9,47 @@ See the [demo page](https://aitorrodriguez990.github.io/ng-default-avatar/) with
 ## Install
 
 ### Manual
+
 Download lastest release from [here](https://github.com/AitorRodriguez990/ng-default-avatar/releases/latest).
+
+### Bower
+
+Soon.
 
 
 ## Usage
 
-        <default-avatar name="'Name'" surname="'Surname'" image="'UrlPath'"></default-avatar>
+```html
+<default-avatar name="Name" surname="Surname" image="UrlPath"></default-avatar>
+```
+
+### Fields
+
+#### **name (string)**
+
+User name. Default value is `?`.
+
+#### **surname (string)** - Optional
+
+User surname. Default value is an empty string.
+
+#### **image (string)** - Optional
+
+User image. Default value is an empty string.
 
 
 ## Pending (ordered)
-* Add default values if user has not *name*, *surname* or *image*
+
 * Update Bower package
 
 
 ## Changelog
+
+### v0.3
+* Add default values
+
 ### v0.2
 * Improve files structure, directive's code and demo template
-
 
 ### v0.1
 * First preview of directive with fields *name*, *surname* and *image*

@@ -1,4 +1,4 @@
-# ng-default-avatar
+# Angular default avatar
 AngularJS directive to show an user avatar. Set a default avatar with initials if user has not avatar image.
 
 

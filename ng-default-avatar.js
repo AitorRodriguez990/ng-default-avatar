@@ -1,7 +1,7 @@
 /*
  * ng-default-avatar - AngularJS directive to set a default avatar with initials if user has not avatar image
  * Author: Aitor Rodríguez - http://www.frontendfactory.es/
- * Version: 0.1
+ * Version: 0.2
  * License: MIT
  */
 

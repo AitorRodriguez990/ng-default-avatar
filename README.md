@@ -24,6 +24,10 @@ Download lastest release from [here](https://github.com/AitorRodriguez990/ng-def
 
 
 ## Changelog
+### v0.2
+* Improve files structure, directive's code and demo template
+
+
 ### v0.1
 * First preview of directive with fields *name*, *surname* and *image*
 * Demo page

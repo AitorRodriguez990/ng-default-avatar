@@ -6,12 +6,26 @@ AngularJS directive to show an user avatar. Set a default avatar with initials i
 See the [demo page](https://aitorrodriguez990.github.io/ng-default-avatar/) with directive working.
 
 
+## Table of content
+
+- [Install](#install)
+  - [Manual](#manual)
+  - [Bower](#bower)
+- [Usage](#usage)
+  - [Fields](#fields)
+- [Changelog](#changelog)
+- [Copyright](#copyright)
+
+
+<a name="install"></a>
 ## Install
 
+<a name="manual"></a>
 ### Manual
 
 Download lastest release from [here](https://github.com/AitorRodriguez990/ng-default-avatar/releases/latest).
 
+<a name="bower"></a>
 ### Bower
 
 Install bower package:
@@ -39,12 +53,14 @@ angular.module('myApplication', ['ngDefaultAvatar']);
 ```
 
 
+<a name="usage"></a>
 ## Usage
 
 ```html
 <default-avatar name="Name" surname="Surname" image="UrlPath"></default-avatar>
 ```
 
+<a name="fields"></a>
 ### Fields
 
 #### **name (string)**
@@ -60,6 +76,7 @@ User surname. Default value is an empty string.
 User image. Default value is an empty string.
 
 
+<a name="changelog"></a>
 ## Changelog
 
 ### v1.0
@@ -76,5 +93,6 @@ User image. Default value is an empty string.
 * Demo page
 
 
+<a name="copyright"></a>
 ## Copyright
 Copyright (c) 2016-Present Aitor Rodríguez - [Front End Factory](http://www.frontendfactory.es). Directive licensed under the MIT License.

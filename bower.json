@@ -6,7 +6,7 @@
         "Aitor Rodríguez <aitor.rodriguez990@gmail.com>"
     ],
     "description": "AngularJS directive to set a default avatar with initials if user has not avatar image",
-    "main": "./app/default-avatar.js",
+    "main": "default-avatar.js",
     "keywords": [
         "angularjs",
         "directive",

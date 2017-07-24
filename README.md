@@ -18,9 +18,8 @@ Download lastest release from [here](https://github.com/AitorRodriguez990/ng-def
 
 
 ## Pending (ordered)
-* Improve code directive
 * Add default values if user has not *name*, *surname* or *image*
-* Create Bower package
+* Update Bower package
 
 
 ## Changelog

@@ -2,7 +2,7 @@
 AngularJS directive to show an user avatar. Set a default avatar with initials if user has not avatar image.
 
 
-## Demo
+### Demo
 See the [demo page](https://aitorrodriguez990.github.io/ng-default-avatar/) with directive working.
 
 

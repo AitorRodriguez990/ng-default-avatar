@@ -14,7 +14,29 @@ Download lastest release from [here](https://github.com/AitorRodriguez990/ng-def
 
 ### Bower
 
-Soon.
+Install bower package:
+
+```bash
+bower install --save ng-default-avatar
+```
+
+Include the following files in your app:
+
+```html
+<script src="bower_components/ng-default-avatar/default-avatar.js"></script>
+```
+
+Add, if you want, the stylesheet too:
+
+```html
+<link rel="stylesheet" href="bower_components/ng-default-avatar/default-avatar.css"></script>
+```
+
+Add `ngDefaultAvatar` to your app's dependencies:
+
+```javascript
+angular.module('myApplication', ['ngDefaultAvatar']);
+```
 
 
 ## Usage
@@ -38,12 +60,10 @@ User surname. Default value is an empty string.
 User image. Default value is an empty string.
 
 
-## Pending (ordered)
-
-* Update Bower package
-
-
 ## Changelog
+
+### v1.0
+* Package available to install by Bower
 
 ### v0.3
 * Add default values

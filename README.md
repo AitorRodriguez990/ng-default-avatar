@@ -43,7 +43,7 @@ Include the following files in your app:
 Add, if you want, the stylesheet too:
 
 ```html
-<link rel="stylesheet" href="bower_components/ng-default-avatar/default-avatar.css"></script>
+<link rel="stylesheet" href="bower_components/ng-default-avatar/default-avatar.css">
 ```
 
 Add `ngDefaultAvatar` to your app's dependencies:
